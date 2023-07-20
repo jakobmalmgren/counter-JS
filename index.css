@@ -1,0 +1,57 @@
+* {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+}
+body {
+  width: 100%;
+  background-color: #a7a7a7;
+  margin: 0;
+  margin-top: 15px;
+}
+.container {
+  width: 500px;
+  height: 95vh;
+  border-radius: 15px;
+  margin: auto;
+
+  background-image: url(/img/subway-4807266_1280.jpg);
+}
+h1 {
+  margin: auto;
+  color: black;
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+.btn_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+button {
+  text-align: center;
+  width: 150px;
+  height: 45px;
+  background-color: red;
+  color: black;
+  border: none;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#increment_btn {
+  background-color: orange;
+}
+#save_btn {
+  background-color: green;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
